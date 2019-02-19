@@ -1,0 +1,35 @@
+.n1{
+		font-family:papyrus;
+		color:white;
+		font-size:19px;
+		background-image: url("https://wallpaperscraft.com/image/black_background_pattern_light_texture_55291_602x339.jpg");
+		background-repeat: repeat-y;
+		width:828px;
+}
+
+#n2{
+	font-family:Times New Roman;
+  color:white;
+  font-size:23px;
+  background-image:url("http://all4desktop.com/data_images/original/4237753-backgrounds.jpg");
+  width:828px;
+}
+
+
+#n3{
+  font-family:Lucida Console;
+  color:yellow;
+  background-image:url("http://www.vanseodesign.com/blog/wp-content/uploads/2011/10/background-3.jpg");
+}
+
+body{
+  background-image:url("http://www.nibong.ac.th/kb/57/00-All_job/job4/job4-supawesh--polawet/bg/bg.jpg");
+  background-repeat: no-repeat;
+}
+
+a{
+  text-decoration:none;
+  font-family:Impact;
+  font-size:29px;
+  color:red;
+}

@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+    int m,n,temp,lcm,gcd;
+    clrscr();
+    printf("Enter the two numbers\n");
+    scanf("%d%d",&m,&n);
+    temp=m*n;
+    while(m!=n)
+    {
+    if(m>n)
+      m=m-n;
+gcd=m;
+      else
+      n=n-m;
+gcd=n;
+    }
+    
+    lcm=temp/gcd;
+    printf("LCM =%d\t GCD =%d",lcm,gcd);
+    getch();
+    return;
+}
